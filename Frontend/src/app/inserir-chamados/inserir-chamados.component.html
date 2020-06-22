@@ -1,0 +1,101 @@
+
+<body class="bg-light">
+  <div class="container">
+<div class="py-5 text-center">
+  <!-- <img class="d-block mx-auto mb-4" src="/docs/4.5/assets/brand/bootstrap-solid.svg" alt="" width="72" height="72"> -->
+  <h2>Realizar chamado</h2>
+  <p class="lead">Para inserir um chamado no sistema preencha o formulário abaixo.</p>
+</div>
+
+
+
+  <div>
+    <h4 class="mb-3">Informações:</h4>
+    <form #formCadastro="ngForm" class="needs-validation" novalidate="" (submit)="inserirChamado(formCadastro)">
+      <div class="row">
+        <div class="col-md-6 mb-3">
+          <label for="IdUsuario">Usuário</label>
+          <select class="custom-select d-block w-100" id="IdUsuario" name="IdUsuario" ngModel>
+            <option [ngValue]="item.idUsuario" *ngFor="let item of listagemDeUsuarios">
+              {{item.nome}}
+              </option>
+          </select>
+        </div>
+        <div class="col-md-6 mb-3">
+          <label for="Categoria">Categoria</label>
+          <select class="custom-select d-block w-100" id="Categoria" name="Categoria" ngModel>
+            <option [ngValue]="item.id" *ngFor="let item of listagemDeCategorias">
+              {{item.descricao}}
+              </option>
+          </select>
+          <div class="invalid-feedback">
+            Please provide a valid state.
+          </div>
+        </div>
+      </div>
+      <div class="mb-3">
+        <label for="Descricao">Descrição <span class="text-muted"></span></label>
+        <input type="text" class="form-control" id="Descricao" name="Descricao" ngModel>
+        <div class="invalid-feedback">
+          Please enter a valid email address for shipping updates.
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 mb-3">
+          <label for="IdMaterial">Material</label>
+          <select class="custom-select d-block w-100" id="IdMaterial" name="IdMaterial" ngModel>
+            <option [ngValue]="item.idMaterial" *ngFor="let item of listagemDeMateriais">
+              {{item.descricao}}
+              </option>
+          </select>
+          <div class="invalid-feedback">
+            Please select a valid country.
+          </div>
+        </div>
+        <div class="col-md-6 mb-3">
+          <label for="Quantidade">Quantidade</label>
+          <input type="number" class="form-control" id="Quantidade" name="Quantidade" ngModel>
+          <div class="invalid-feedback">
+            Valid last name is required.
+          </div>
+        </div>
+
+      </div>
+      <div class="row">
+        <div class="col-md-6 mb-3">
+          <label for="IdMensagem">Mensagem</label>
+          <select class="custom-select d-block w-100" id="IdMensagem" name="IdMensagem" ngModel>
+            <option [ngValue]="item.idMensagem" *ngFor="let item of listagemDeMensagens">
+              {{item.corpo}}
+              </option>
+          </select>
+          <div class="invalid-feedback">
+            Please provide a valid state.
+          </div>
+        </div>
+
+      </div>
+
+      <hr class="mb-4">
+
+      <hr class="mb-4">
+
+      <button class="btn btn-primary btn-lg btn-block" type="submit">Inserir Chamado</button>
+    </form>
+  </div>
+
+
+<footer class="my-5 pt-5 text-muted text-center text-small">
+  <p class="mb-1">© 2017-2020 Company Name</p>
+  <ul class="list-inline">
+    <li class="list-inline-item"><a href="#">Privacy</a></li>
+    <li class="list-inline-item"><a href="#">Terms</a></li>
+    <li class="list-inline-item"><a href="#">Support</a></li>
+  </ul>
+</footer>
+</div>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="/docs/4.5/assets/js/vendor/jquery.slim.min.js"><\/script>')</script><script src="/docs/4.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-1CmrxMRARb6aLqgBO7yyAxTOQE2AKb9GfXnEo760AUcUmFx3ibVJJAzGytlQcNXd" crossorigin="anonymous"></script>
+      <script src="form-validation.js"></script>
+
+</body>

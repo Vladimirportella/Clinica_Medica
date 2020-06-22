@@ -1,0 +1,111 @@
+<div class="container">
+  <div class="card bg-light text-center">
+    <div class="card-body">
+      <h5 class="card-title">Chamado X</h5>
+      <p class="card-text">Informações sobre o chamado X
+      </p>
+    </div>
+  </div>
+  <form #formEdicao="ngForm" (submit)="atualizarChamado(formEdicao)">
+    <input type="hidden" name="idChamado" [(ngModel)]="chamadoEdicao.idChamado"/>
+    <div class="row mt-3">
+      <div class="col-sm-4">
+        <div class="card text-center">
+          <div class="card-body">
+            <h5 class="card-title">Usuário</h5>
+            <p>
+              <select class="form-control text-center" id="idUsuario" name="idUsuario" [(ngModel)]="chamadoEdicao.idUsuario">
+                <option [ngValue]="item.idUsuario" *ngFor="let item of listagemDeUsuarios">
+                  {{item.nome}}
+                  </option>
+              </select>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="card text-center">
+          <div class="card-body">
+            <h5 class="card-title">Status</h5>
+            <select  class="form-control text-center" id="status" name="status" [(ngModel)]="chamadoEdicao.status">
+              <option [ngValue]="item.id" *ngFor="let item of listagemDeStatus">
+                {{item.descricao}}
+                </option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="card text-center">
+          <div class="card-body">
+            <h5 class="card-title">Categoria</h5>
+            <select  class="form-control text-center" id="categoria" name="categoria" [(ngModel)]="chamadoEdicao.categoria">
+              <option [ngValue]="item.id" *ngFor="let item of listagemDeCategorias">
+                {{item.descricao}}
+                </option>
+            </select>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row mt-3">
+      <div class="col-sm-4">
+        <div class="card text-center">
+          <div class="card-body">
+            <h5 class="card-title">Quantidade</h5>
+            <p><input class="form-control text-center" type="number"  name="quantidade" [(ngModel)]="chamadoEdicao.quantidade"/></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="card text-center">
+          <div class="card-body">
+            <h5 class="card-title">Data</h5>
+            <p class="form-control">{{chamadoEdicao.dataCriacao | date : 'dd/MM/yyyy HH:dd'}}</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="card text-center">
+          <div class="card-body">
+            <h5 class="card-title">Materiais</h5>
+            <p>
+              <select class="form-control text-center" id="idMaterial" name="idMaterial" [(ngModel)]="chamadoEdicao.idMaterial">
+                <option [ngValue]="item.idMaterial" *ngFor="let item of listagemDeMateriais">
+                  {{item.descricao}}
+                  </option>
+              </select>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row mt-3">
+      <div class="col-sm-6">
+        <div class="card text-center">
+          <div class="card-body">
+            <h5 class="card-title">Descrição</h5>
+            <p><input class="form-control text-center" type="text" name="descricao" [(ngModel)]="chamadoEdicao.descricao"/></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="card text-center">
+          <div class="card-body">
+            <h5 class="card-title">Mensagem</h5>
+           <p>
+            <select class="form-control text-center" id="idMensagem" name="idMensagem" [(ngModel)]="chamadoEdicao.idMensagem">
+              <option [ngValue]="item.idMensagem" *ngFor="let item of listagemDeMensagens">
+                {{item.corpo}}
+                </option>
+            </select>
+           </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br/>
+    <button class="btn btn-primary btn-lg btn-block" type="submit">Atualizar Chamado</button>
+  </form>
+
+</div>

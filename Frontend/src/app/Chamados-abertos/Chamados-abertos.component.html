@@ -1,0 +1,34 @@
+<div class="container">
+  <div class="card bg-light">
+    <div class="card-body">
+      <h5 class="card-title">Meus Chamados</h5>
+      <p class="card-text">Lista de chamados abertos por mim</p>
+    </div>
+  </div>
+  <table class="table table-striped table-hover table-light">
+    <thead>
+      <tr class="bg-dark text-white">
+        <th scope="col">IdChamado</th>
+        <th scope="col">Descricao</th>
+        <th scope="col">Data de realização</th>
+        <th scope="col">Categoria</th>
+        <th scope="col">Status</th>
+        <th scope="col">Detalhes</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let item of listagemDeChamados">
+        <td>{{item.idChamado}}</td>
+        <td>{{item.descricao}}</td>
+        <td>{{item.dataCriacao  | date : 'dd/MM/yyyy HH:dd'}}</td>
+        <td>{{item.categoria}}</td>
+        <td>{{item.status}}</td>
+        <td>
+          <button class="btn btn-primary btn-sm" (click)="redirect(item.idChamado)">
+            Verificar
+          </button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
