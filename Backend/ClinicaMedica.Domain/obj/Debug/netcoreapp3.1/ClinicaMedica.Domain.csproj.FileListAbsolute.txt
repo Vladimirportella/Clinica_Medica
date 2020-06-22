@@ -1,0 +1,9 @@
+C:\Users\windows\Desktop\002\Coti\ClinicaMedica\ClinicaMedica.Domain\bin\Debug\netcoreapp3.1\ClinicaMedica.Domain.deps.json
+C:\Users\windows\Desktop\002\Coti\ClinicaMedica\ClinicaMedica.Domain\bin\Debug\netcoreapp3.1\ClinicaMedica.Domain.dll
+C:\Users\windows\Desktop\002\Coti\ClinicaMedica\ClinicaMedica.Domain\bin\Debug\netcoreapp3.1\ClinicaMedica.Domain.pdb
+C:\Users\windows\Desktop\002\Coti\ClinicaMedica\ClinicaMedica.Domain\obj\Debug\netcoreapp3.1\ClinicaMedica.Domain.csprojAssemblyReference.cache
+C:\Users\windows\Desktop\002\Coti\ClinicaMedica\ClinicaMedica.Domain\obj\Debug\netcoreapp3.1\ClinicaMedica.Domain.csproj.CoreCompileInputs.cache
+C:\Users\windows\Desktop\002\Coti\ClinicaMedica\ClinicaMedica.Domain\obj\Debug\netcoreapp3.1\ClinicaMedica.Domain.AssemblyInfoInputs.cache
+C:\Users\windows\Desktop\002\Coti\ClinicaMedica\ClinicaMedica.Domain\obj\Debug\netcoreapp3.1\ClinicaMedica.Domain.AssemblyInfo.cs
+C:\Users\windows\Desktop\002\Coti\ClinicaMedica\ClinicaMedica.Domain\obj\Debug\netcoreapp3.1\ClinicaMedica.Domain.dll
+C:\Users\windows\Desktop\002\Coti\ClinicaMedica\ClinicaMedica.Domain\obj\Debug\netcoreapp3.1\ClinicaMedica.Domain.pdb

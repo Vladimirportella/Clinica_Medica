@@ -1,0 +1,15 @@
+C:\Users\windows\Desktop\002\Coti\ClinicaMedica\ClinicaMedica.Infra.Data\bin\Debug\netcoreapp3.1\ClinicaMedica.Domain.dll
+C:\Users\windows\Desktop\002\Coti\ClinicaMedica\ClinicaMedica.Infra.Data\obj\Debug\netcoreapp3.1\ClinicaMedica.Infra.Data.csprojAssemblyReference.cache
+C:\Users\windows\Desktop\002\Coti\ClinicaMedica\ClinicaMedica.Infra.Data\obj\Debug\netcoreapp3.1\ClinicaMedica.Infra.Data.AssemblyInfoInputs.cache
+C:\Users\windows\Desktop\002\Coti\ClinicaMedica\ClinicaMedica.Infra.Data\obj\Debug\netcoreapp3.1\ClinicaMedica.Infra.Data.AssemblyInfo.cs
+C:\Users\windows\Desktop\002\Coti\ClinicaMedica\ClinicaMedica.Infra.Data\bin\Debug\netcoreapp3.1\ClinicaMedica.Infra.Data.deps.json
+C:\Users\windows\Desktop\002\Coti\ClinicaMedica\ClinicaMedica.Infra.Data\bin\Debug\netcoreapp3.1\ClinicaMedica.Infra.Data.runtimeconfig.json
+C:\Users\windows\Desktop\002\Coti\ClinicaMedica\ClinicaMedica.Infra.Data\bin\Debug\netcoreapp3.1\ClinicaMedica.Infra.Data.runtimeconfig.dev.json
+C:\Users\windows\Desktop\002\Coti\ClinicaMedica\ClinicaMedica.Infra.Data\bin\Debug\netcoreapp3.1\ClinicaMedica.Infra.Data.dll
+C:\Users\windows\Desktop\002\Coti\ClinicaMedica\ClinicaMedica.Infra.Data\bin\Debug\netcoreapp3.1\ClinicaMedica.Infra.Data.pdb
+C:\Users\windows\Desktop\002\Coti\ClinicaMedica\ClinicaMedica.Infra.Data\bin\Debug\netcoreapp3.1\ClinicaMedica.Domain.pdb
+C:\Users\windows\Desktop\002\Coti\ClinicaMedica\ClinicaMedica.Infra.Data\obj\Debug\netcoreapp3.1\ClinicaMedica.Infra.Data.csproj.CoreCompileInputs.cache
+C:\Users\windows\Desktop\002\Coti\ClinicaMedica\ClinicaMedica.Infra.Data\obj\Debug\netcoreapp3.1\ClinicaMedica.Infra.Data.csproj.CopyComplete
+C:\Users\windows\Desktop\002\Coti\ClinicaMedica\ClinicaMedica.Infra.Data\obj\Debug\netcoreapp3.1\ClinicaMedica.Infra.Data.dll
+C:\Users\windows\Desktop\002\Coti\ClinicaMedica\ClinicaMedica.Infra.Data\obj\Debug\netcoreapp3.1\ClinicaMedica.Infra.Data.pdb
+C:\Users\windows\Desktop\002\Coti\ClinicaMedica\ClinicaMedica.Infra.Data\obj\Debug\netcoreapp3.1\ClinicaMedica.Infra.Data.genruntimeconfig.cache
